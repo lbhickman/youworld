@@ -1,0 +1,35 @@
+{
+  "name": "youworld",
+  "private": true,
+  "version": "1.0.0",
+  "description": "YouWorld: a free, open-source question bank app for studying your own multiple-choice questions.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-dialog": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "dompurify": "^3",
+    "jszip": "^3",
+    "katex": "^0.16",
+    "marked": "^14",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/dompurify": "^3",
+    "@types/katex": "^0.16",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4",
+    "typescript": "^5",
+    "vite": "^5"
+  }
+}
